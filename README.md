@@ -62,6 +62,7 @@ You will first need to download pre-trained ViT model from Google and place it a
 We have provided a simple example script showing how to train a model and apply it to virtually label unseen fields (run_vl.ipynb). The script runs on sample images we have provided in the ./data_example folder.
 To modify this script to use with your own images, simply modify the dataroot variable to point to the directory containing your images and change the input and targets to be the markers intended (matching how the folders are named).
 
+Run time can vary depending on hardware and dataset size. ~4hrs-12hrs runtime might be expected. 
 
 ## Results
 Results can be found in ./results folder. In this folder, the art_pretrain folder contains the model without the trained transformer. 
