@@ -64,6 +64,8 @@ To modify this script to use with your own images, simply modify the dataroot va
 
 Run time can vary depending on hardware and dataset size. ~1hrs-4hrs runtime might be expected. 
 
+Alternatively, we have also provided a script - 'VirtualLabelling_colab_example.ipynb' to run virtual labelling on Google Colab (avoiding any necessary set up). Be ensure a GPU runtime is selected. Data needs to be uploaded to the runtime with modalities placed in separate folders as described. 
+
 ## Results
 Results can be found in ./results folder. In this folder, the art_pretrain folder contains the model without the trained transformer. 
 The resvit folder contains the fully trained model and predictions from the test set in the test_images folder. Images are given a suffix to denote whether they were inputs, predictions or the target. 
