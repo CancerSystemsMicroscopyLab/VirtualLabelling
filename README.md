@@ -77,7 +77,7 @@ In our toy example, we have provided 10 sets of inputs and 9 target Fibrillarin 
 ## Downstream processing
 Virtual labels can be analysed in the same way as other fluorescence images as needed. 
 
-Results published in "TB"C can be reproduced using the accompanying quantitative data found at tbc.
+Results published in "TBC" can be reproduced using the accompanying quantitative data found at tbc using the code found in the 'published_analysis' folder.
 
 
 # Citation
