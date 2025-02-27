@@ -75,7 +75,9 @@ In the resvit folder, the predictions folder contains prediction for all input i
 In our toy example, we have provided 10 sets of inputs and 9 target Fibrillarin images. The trained model will finally virtually label all 10 sets (with the limited training provided).
 
 ## Downstream processing
-Virtual labels can be analysed in the same way as other fluorescence images as needed.
+Virtual labels can be analysed in the same way as other fluorescence images as needed. 
+
+Results published in "TB"C can be reproduced using the accompanying quantitative data found at tbc.
 
 
 # Citation
